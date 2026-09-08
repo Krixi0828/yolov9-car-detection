@@ -1,0 +1,12 @@
+cat > data/car_exp3_eval.yaml <<'EOF'
+path: ../data
+
+train: car_dataset_exp3/images/train
+val: car_dataset_exp3/images/val
+test: car_test/images
+
+nc: 1
+
+names:
+  0: car
+EOF

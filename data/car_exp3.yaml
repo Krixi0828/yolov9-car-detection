@@ -1,0 +1,11 @@
+cat > data/car_exp3.yaml <<'EOF'
+path: ../data/car_dataset_exp3
+
+train: images/train
+val: images/val
+
+nc: 1
+
+names:
+  0: car
+EOF

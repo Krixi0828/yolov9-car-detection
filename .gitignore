@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# External repositories
+yolov9/
+labelImg/
+
+# Raw / generated datasets
+data/UA-DETRAC_raw/
+data/car_raw/
+data/car_dataset/
+data/car_dataset_exp3/
+data/car_test/
+
+# Generated sanity checks
+data/exp3_sanity_check/
+data/test_sanity_check/
+
+# Original analysis outputs
+# GitHub copies are stored under results/
+data/test_error_analysis/
+data/test_error_analysis_exp4_640/
+
+# Model checkpoints
+*.pt
+
+# Dataset / YOLO cache
+*.cache
+
+# Large archives
+*.zip
+
+# Environment
+.env
+.venv/
+venv/
+
+# Temporary files
+*.tmp
+*.log
