@@ -214,7 +214,7 @@ python check_test_labels.py
 
 ### 1. Original Custom Dataset
 
-最初自行蒐集並使用 LabelImg 手動標註 29 張圖片：
+最初自行蒐集並使用 `LabelImg` 手動標註 29 張圖片：
 
 | Split | Images |
 |---|---:|
